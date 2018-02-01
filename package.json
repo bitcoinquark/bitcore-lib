@@ -1,7 +1,7 @@
 {
   "name": "btq-bitcore-lib",
   "version": "0.14.1",
-  "description": "A pure and powerful JavaScript Bitcoin library.",
+  "description": "A pure and powerful JavaScript BitcoinQuark library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
