@@ -31,8 +31,8 @@ describe('Unit', function() {
     }).to.not.throw();
   });
 
-  it('has property accesors "BTC", "mBTC", "uBTC", "bits", and "satoshis"', function() {
-    var unit = new Unit(1.2, 'BTC');
+  it('has property accesors "BTQ", "mBTQ", "uBTQ", "bits", and "satoshis"', function() {
+    var unit = new Unit(1.2, 'BTQ');
     unit.BTC.should.equal(1.2);
     unit.mBTC.should.equal(1200);
     unit.uBTC.should.equal(1200000);
