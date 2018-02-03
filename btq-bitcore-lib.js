@@ -52148,8 +52148,8 @@ if (typeof Object.create === 'function') {
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],299:[function(require,module,exports){
 module.exports={
-  "name": "bitcore-lib",
-  "version": "0.13.19",
+  "name": "btq-bitcore-lib",
+  "version": "0.14.2",
   "description": "A pure and powerful JavaScript Bitcoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -52237,7 +52237,7 @@ module.exports={
     "lodash": "=3.10.1"
   },
   "devDependencies": {
-    "bitcore-build": "bitpay/bitcore-build",
+    "btq-bitcore-build": "^0.9.2",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
@@ -52246,7 +52246,7 @@ module.exports={
   "license": "MIT"
 }
 
-},{}],"bitcore-lib":[function(require,module,exports){
+},{}],"btq-bitcore-lib":[function(require,module,exports){
 (function (global,Buffer){
 'use strict';
 
